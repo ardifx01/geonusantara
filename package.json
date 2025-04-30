@@ -1,0 +1,45 @@
+{
+  "name": "geonusantara",
+  "version": "1.0.0",
+  "description": "API ini menyajikan data wilayah Indonesia yang mencakup provinsi, kabupaten, kecamatan, dan desa secara lengkap, terstruktur, dan terbaru. Data ini diambil dari sumber resmi pemerintah dan diperbarui secara berkala untuk memastikan akurasi dan keandalan informasi.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "API",
+    "Wilayah",
+    "Indonesia",
+    "Provinsi",
+    "Kabupaten",
+    "Kecamatan",
+    "Desa",
+    "Data Wilayah",
+    "Kode Wilayah",
+    "Wilayah Administratif",
+    "Data Indonesia",
+    "REST API",
+    "Open Data",
+    "Peta Wilayah",
+    "Geografi Indonesia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhamdaily/geonusantara"
+  },
+  "author": "Muhammad Mauribi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
