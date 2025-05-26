@@ -11,6 +11,9 @@ import {
 } from '../controllers/wilayahController.js';
 
 const router = express.Router();
+router.get('/', (req, res) => {
+    res.status(200).json({ message: 'Welcome to the Wilayah API' });
+});
 
 router.get('/provinsi', getAllProvinsi);
 router.get('/provinsi/:id', getProvinsiById);
